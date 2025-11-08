@@ -26,9 +26,9 @@ az extension add -n ml -y
 
 ## For backward compatibility - running on old subscription
 # <set_variables>
-GROUP="testml"
-LOCATION="eastus"
-WORKSPACE="azureml"
+GROUP="mloncloud"
+LOCATION="eastus2"
+WORKSPACE="mloncloud"
 # </set_variables>
 
 # If RESOURCE_GROUP_NAME is empty, the az configure is pending.
